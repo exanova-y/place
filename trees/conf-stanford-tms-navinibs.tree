@@ -49,4 +49,19 @@
 \p{N=10 healthy participants, left dlPFC (two subregions), 13 coil angles / 21 locations. In silico, artifact minimization converged in \strong{~30 s (angle) / ~40 s (location)} versus \strong{~8.5 min (angle) / ~24 min (location)} for direct EL-TEP maximization. NaviNIBS is already open source; EphyNIBS and the optimization algorithms are to follow. Now in use in ongoing in vivo studies.}
 }
 
+\subtree{\title{Companion poster — deep-brain single-neuron evidence of plasticity}
+\taxon{finding}
+\meta{poster}{41}
+\meta{authors}{C. W. Dickey, U. Hassan, H. Kawasaki, A. E. Rhone, C. C. Cline, N. T. Trapp, A. D. Boes, J. I. Berger, C. J. Keller}
+\image{conf-keller-deepbrain-plasticity.jpg}
+\p{\strong{Caption.} Same lab, from the other end of the electrode: single-neuron recordings via depth microwires in epilepsy patients show that prefrontal \strong{intermittent theta-burst TMS (iTBS)} induces cell-type-specific plasticity in deep human neurons (striato-thalamic vs limbic), consistent with a BCM-like sliding threshold. Category 2 (deep-brain inference) — direct intracranial evidence for what the surface TMS-EEG loop is optimizing.}
+}
+
+\subtree{\title{Companion poster — TMS-EEG sensitivity to coil angle, location, intensity}
+\taxon{finding}
+\meta{authors}{L. Schreiner, C. C. Cline, S. M. Gray, E. Klebaner, U. Hassan, H. Lee, N. T. Trapp, A. D. Boes, C. J. Keller}
+\image{conf-keller-tmseeg-sensitivity.jpg}
+\p{\strong{Caption.} The dose-response map behind the optimizer: probing dlPFC with TMS-EEG across coil angle, location, and intensity shows the \strong{EL-TEP} has a distinct sensitivity profile, cleanly dissociable from the muscle/scalp artifact, and validated against stereo-EEG. This is the response surface the Bayesian loop above searches.}
+}
+
 \p{Why it matters for us: this is the reference architecture for a \strong{released} closed-loop stimulation loop — the same NaviNIBS/EphyNIBS pattern our own possible-world rotation ([[bcf-devices]]) would adopt to close the loop on genuine choice.}
