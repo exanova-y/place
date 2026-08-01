@@ -1,0 +1,25 @@
+\title{Personalized vs group-optimized TES — the floor of standardization}
+\taxon{conversation}
+\author{monaduck1069}
+\date{2026-08-01}
+\import{macros}
+\tag{conference}
+\tag{neuromodulation-nyc-2026}
+\tag{tes}
+\tag{personalization}
+\tag{field-note}
+\meta{venue}{Neuromodec 2026 (NYC)}
+\meta{format}{hallway conversation (no image)}
+\meta{category}{open-source device application; deep brain imaging inference}
+
+\p{Hallway field note from [[conf-neuromod-nyc-2026]] — a conversation at a poster on \strong{optimization constraints for personalized vs group-optimized TES} (transcranial electrical stimulation) protocols. No photo; recorded as notes.}
+
+\subtree{\title{The researcher's take}
+\taxon{remark}
+\p{Group-level optimization — e.g. a shared task like \strong{color perception} — can standardize a protocol \em{at the voxel level}, but not much beyond that: individual \strong{head and brain anatomy} varies too much for a group-optimized montage to stay on-target across people. His own interest had moved to \strong{combining TMS with imaging} to map each person's actual \strong{sulcal shape}, and then using an \strong{interference pulse read out by EEG} to standardize targeting across individuals.}
+}
+
+\subtree{\title{Our read (BCI place)}
+\taxon{remark}
+\p{This is the same conclusion the forest keeps hitting: the group task fixes the \em{coordinate}, not the \em{connection}. His "interference pulse read out by EEG" is the EL-TEP move — [[conf-stanford-tms-navinibs]] uses exactly a TMS pulse read out by EEG to standardize targeting per person; and the sulcal-shape mapping is the finer-grid electrode-placement problem in [[conf-soterix-uhd-tes]]. For us it lands on the Device Ledger ([[bcf-devices]]) as: a per-person, scan-registered montage beats any group-optimized one, and an evoked-potential readout is how you close the gap. Category 1 (the TES device) meeting category 2 (imaging-guided, per-person targeting).}
+}

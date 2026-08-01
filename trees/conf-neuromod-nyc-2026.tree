@@ -64,7 +64,16 @@
 \taxon{remark}
 \p{Sits under all three lenses rather than in one.}
 \ul{
-\li{[[conf-neuromodec-hh-operators]] — Northeastern/UMass/Utah: Fourier \& Laplace Neural Operators for fast Hodgkin-Huxley estimation.}
+\li{[[conf-neuromodec-hh-operators]] — Northeastern/UMass/Utah: Fourier \& Laplace Neural Operators for fast Hodgkin-Huxley estimation. Carries a conversation note on why single-membrane HH only matters in a network.}
+}
+}
+
+\subtree{\title{Hallway conversations \& leads}
+\taxon{remark}
+\p{No-image field notes — researcher takes and our own reads, from conversations on the floor.}
+\ul{
+\li{[[conf-tes-personalization-note]] — personalized vs group-optimized TES: group tasks standardize only at the voxel level; the fix is per-person sulcal mapping (TMS + imaging) plus an EEG-read-out interference pulse.}
+\li{[[conf-intranasal-deepbrain-note]] — intranasal deep-brain data collection; the open problem is subtracting the olfactory-bulb signal, and fiber optics may beat EEG on that route.}
 }
 }
 
