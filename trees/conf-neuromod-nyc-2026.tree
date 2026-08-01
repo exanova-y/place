@@ -1,0 +1,62 @@
+\title{Neuromodulation Conference, NYC (2026): poster field notes}
+\taxon{index}
+\author{monaduck1069}
+\date{2026-08-01}
+\import{macros}
+\tag{conference}
+\tag{neuromodulation-nyc-2026}
+\tag{bci}
+\tag{landscape}
+\meta{venue}{Neuromodulation Conference, New York City, 2026}
+\meta{representing}{BCI place — place://bci}
+
+\p{Field notes from representing \strong{BCI place} at the Neuromodulation Conference in New York City (2026). Posters and talks are sorted into the three lenses we went in with: \strong{open-source application of devices}, \strong{deep brain imaging inference}, and \strong{sense stimulation \& distinct qualia}. Each entry is a transcription of what was publicly presented; where a captured photo contained bystanders or was marked confidential, the image is withheld and only the content is recorded.}
+
+\p{This index is the conference lane of the \strong{BCI Landscape} ([[bcf-0051]]); the "Relation to our devices" section below threads every entry back to the Device Ledger ([[bcf-devices]], \code{place://bci/devices}).}
+
+\subtree{\title{1 — Open-source application of devices}
+\taxon{remark}
+\p{Applied stimulation/recording devices, ranked by how much of the stack is actually released. The Stanford loop is the real open-source flagship; the rest are device-application platforms noted with honest openness status.}
+\ul{
+\li{[[conf-stanford-tms-navinibs]] — closed-loop robotic TMS-EEG on \strong{NaviNIBS + EphyNIBS} (open source). Bayesian coil-pose optimization.}
+\li{[[conf-soterix-uhd-tes]] — Soterix ultra-HD tES on a 10-05 montage (commercial; device-application by function).}
+\li{[[conf-ccny-hc-tdcs]] — City College / Bikson: High-Capacity tDCS at 6+ mA, benchtop \& wearable-disposable.}
+\li{[[conf-ccny-wde-wound]] — City College / Bikson: printed, self-powered Wearable Disposable Electrotherapy patch.}
+}
+}
+
+\subtree{\title{2 — Deep brain imaging inference}
+\taxon{remark}
+\p{Reaching past the scalp — either by implanting into the ECoG band, or by imaging-guided targeting of deep structures no scalp montage can localize.}
+\ul{
+\li{[[conf-motif-dot]] — Motif DOT: implanted electrodes track \strong{0.2--200 Hz} (vs 0.2--25 Hz scalp EEG). Also appears under category 3.}
+\li{[[conf-kubanek-fus-pain]] — Kubanek/Utah: fMRI-localized tFUS into subgenual + dorsal anterior cingulate. Also appears under category 3.}
+}
+}
+
+\subtree{\title{3 — Sense stimulation \& distinct qualia}
+\taxon{remark}
+\p{Writing \em{in} — evoking or modulating a percept — and, at the sharp end, evoking \strong{distinct, separable qualia}.}
+\ul{
+\li{[[conf-pitt-bidirectional-bci]] — Gaunt/RNEL: bidirectional BCI, ICMS of S1 evoking distinct tactile percepts (the flagship qualia work).}
+\li{[[conf-motif-dot]] — Motif DOT: "expand the dose window" by steering the field away from the scalp.}
+\li{[[conf-kubanek-fus-pain]] — Kubanek: modulating pain \em{aversiveness} (an affective quale), rapid and durable.}
+\li{[[conf-ccny-hc-tdcs]] — cross-ref: VASP-100 pain tolerability is the gating percept for high-dose tDCS.}
+}
+\p{Partially captured (not written up): a neighboring closed-loop sensorimotor poster (5 Utah arrays, somatosensory microstimulation, a Deep-Q-network force controller) was visible only at the edge of frame and is left as a lead, not a claim.}
+}
+
+\subtree{\title{Relation to our devices — place://bci/devices}
+\taxon{remark}
+\p{How each entry lands against the Device Ledger ([[bcf-devices]]) — our current and planned devices — and the SF landscape equivalence classes ([[bcf-0051]]).}
+\table{
+\tr{\th{Conference entry} \th{Nearest thing we have} \th{Landscape class}}
+\tr{\td{[[conf-stanford-tms-navinibs]]} \td{Closed-loop target for our possible-world rotation (no TMS in ledger yet)} \td{TMS / closed-loop}}
+\tr{\td{[[conf-soterix-uhd-tes]]} \td{Electrode-placement layer under our EEG montages; the scan-registered "quality of connection" thread} \td{tES}}
+\tr{\td{[[conf-ccny-hc-tdcs]]} \td{Stimulation-capable end of the ledger (we are mostly recording-side today)} \td{[C] Non-invasive}}
+\tr{\td{[[conf-ccny-wde-wound]]} \td{Printed / disposable / electronics-free extreme of the device space} \td{—}}
+\tr{\td{[[conf-motif-dot]]} \td{Ceiling on what scalp devices can infer; canonical [M] entry} \td{[M] Minimally Invasive}}
+\tr{\td{[[conf-kubanek-fus-pain]]} \td{Imaging-guided sibling of our aspirational tFUS rig (\code{DEV-USTIM-001}, [[bcf-0056]])} \td{[U] Focused Ultrasound}}
+\tr{\td{[[conf-pitt-bidirectional-bci]]} \td{Invasive endpoint of our multi-sensory stimulation direction ([[bcf-0056]])} \td{[I] High-Bandwidth Invasive}}
+}
+}

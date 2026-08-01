@@ -1,0 +1,39 @@
+\title{Making bidirectional BCIs last a decade}
+\taxon{reference}
+\author{monaduck1069}
+\date{2026-08-01}
+\import{macros}
+\tag{conference}
+\tag{neuromodulation-nyc-2026}
+\tag{bidirectional-bci}
+\tag{icms}
+\tag{somatosensory}
+\tag{qualia}
+\meta{venue}{Neuromodulation Conference, NYC (2026)}
+\meta{speaker}{Robert Gaunt}
+\meta{institution}{Rehab Neural Engineering Labs (RNEL), Dept. of Physical Medicine & Rehabilitation, University of Pittsburgh}
+\meta{url}{http://rnel.pitt.edu}
+\meta{disclosures}{Prior consultant and research funding from Blackrock Neurotech; NeuroWired SAB}
+\meta{landscape-class}{[I] High-Bandwidth Invasive}
+\meta{category}{sense stimulation & distinct qualia}
+
+\p{Field note from the Neuromodulation Conference (NYC, 2026), filed under [[conf-neuromod-nyc-2026]]. This is the flagship \strong{sense stimulation \& distinct qualia} talk: Robert Gaunt's RNEL group runs \strong{bidirectional} BCIs — motor decoding out, and intracortical microstimulation (ICMS) of somatosensory cortex back in — where stimulation on a given electrode evokes a \strong{distinct, localized tactile percept} on the hand. That evoked percept is the quale; the "last a decade" framing is about array longevity holding that percept map stable over years.}
+
+\subtree{\title{What was captured}
+\taxon{remark}
+\p{Only the \strong{title slide} was photographed (the talk was crowded; the image is not republished because it contains bystanders). Recorded verbatim from that slide:}
+\ul{
+\li{Title: \em{Making bidirectional BCIs last a decade}}
+\li{Speaker: \strong{Robert Gaunt}}
+\li{Rehab Neural Engineering Labs; Dept. of Physical Medicine and Rehabilitation, University of Pittsburgh}
+\li{\code{http://rnel.pitt.edu}}
+\li{Disclosures: prior consultant and research funding from Blackrock Neurotech; NeuroWired SAB}
+}
+}
+
+\subtree{\title{Context (not from the slide)}
+\taxon{remark}
+\p{Marked as context, not poster claims: RNEL's bidirectional line implants microelectrode arrays in motor and \strong{somatosensory} cortex of people with spinal cord injury. ICMS of area 1/S1 evokes graded, spatially-specific tactile sensations on the paralyzed hand, closing a sensorimotor loop for prosthesis control. The distinct-qualia claim — that separable electrodes map to separable, nameable percepts — is exactly the "distinct qualia" axis this category is about; the engineering claim here is that the percept-to-electrode map stays usable over a decade of implantation.}
+}
+
+\p{Why it matters for us: the invasive endpoint of the "distinct qualia" axis — the same axis our noninvasive multi-sensory stimulation direction ([[bcf-0056]]) approaches from the other side. Maps to \strong{[I] High-Bandwidth Invasive} (Blackrock/Utah array) in [[bcf-0051]].}
