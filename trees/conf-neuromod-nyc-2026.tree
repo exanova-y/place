@@ -11,7 +11,7 @@
 \meta{dates}{July 30 – August 3, 2026}
 \meta{representing}{BCI place — place://bci}
 
-\p{Field notes from representing \strong{BCI place} at the \strong{2026 NYC Neuromodulation Conference} (Neuromodec), held at the City College of New York, July 30 – August 3, 2026. Posters and talks are sorted into the three lenses we went in with: \strong{open-source application of devices}, \strong{deep brain imaging inference}, and \strong{sense stimulation \& distinct qualia}, plus a short \strong{methods \& modeling} shelf.}
+\p{Field notes from representing \strong{BCI place} at the \strong{2026 NYC Neuromodulation Conference} (Neuromodec), held at the City College of New York, July 30 – August 3, 2026. Posters and talks are sorted into the three lenses we went in with: \strong{open-source application of devices}, \strong{deep brain imaging inference}, and \strong{sense stimulation & distinct qualia}, plus a short \strong{methods & modeling} shelf.}
 
 \p{Most entries carry the poster/slide photo with a short summarizing caption rather than a full transcription. \strong{Faces of bystanders and study participants are blurred}, and photos are cropped to the poster/screen where needed; EXIF/GPS is stripped. Slides marked confidential (Motif's investor deck) are recorded as text only, never republished as images.}
 
@@ -25,7 +25,7 @@
 \li{[[conf-njit-rtch-coil]] — NJIT: RTCH, a 3D-printed open-hardware 6-DOF robotic TMS coil holder.}
 \li{[[conf-hanein-dry-electrodes]] — Hanein (Tel Aviv/Jena): screen-printed dry carbon electrode arrays for TES + closed-loop.}
 \li{[[conf-soterix-uhd-tes]] — Soterix ultra-HD tES on a 10-05 montage (commercial; device-application by function).}
-\li{[[conf-ccny-hc-tdcs]] — City College / Bikson: High-Capacity tDCS at 6+ mA, benchtop \& wearable-disposable.}
+\li{[[conf-ccny-hc-tdcs]] — City College / Bikson: High-Capacity tDCS at 6+ mA, benchtop & wearable-disposable.}
 \li{[[conf-ccny-wde-wound]] — City College / Bikson: printed, self-powered Wearable Disposable Electrotherapy patch.}
 \li{[[conf-spark-auricular-tan]] — Spark Biomedical: Sparrow Hawk wearable auricular vagal stimulator (stress RCT).}
 \li{[[conf-alphastim-ces-gad]] — Vanderbilt/UNC: at-home Alpha-Stim CES for anxiety, with resting-state EEG mechanism.}
@@ -51,7 +51,7 @@
 }
 }
 
-\subtree{\title{3 — Sense stimulation \& distinct qualia}
+\subtree{\title{3 — Sense stimulation & distinct qualia}
 \taxon{remark}
 \p{Writing \em{in} — evoking or modulating a percept — and, at the sharp end, evoking \strong{distinct, separable qualia}.}
 \ul{
@@ -67,15 +67,15 @@
 \p{Partially captured (not written up): a neighboring closed-loop sensorimotor poster (5 Utah arrays, somatosensory microstimulation, a Deep-Q-network force controller) was visible only at the edge of frame and is left as a lead, not a claim.}
 }
 
-\subtree{\title{Methods \& modeling}
+\subtree{\title{Methods & modeling}
 \taxon{remark}
 \p{Sits under all three lenses rather than in one.}
 \ul{
-\li{[[conf-neuromodec-hh-operators]] — Northeastern/UMass/Utah: Fourier \& Laplace Neural Operators for fast Hodgkin-Huxley estimation. Carries a conversation note on why single-membrane HH only matters in a network.}
+\li{[[conf-neuromodec-hh-operators]] — Northeastern/UMass/Utah: Fourier & Laplace Neural Operators for fast Hodgkin-Huxley estimation. Carries a conversation note on why single-membrane HH only matters in a network.}
 }
 }
 
-\subtree{\title{Hallway conversations \& leads}
+\subtree{\title{Hallway conversations & leads}
 \taxon{remark}
 \p{No-image field notes — researcher takes and our own reads, from conversations on the floor.}
 \ul{
